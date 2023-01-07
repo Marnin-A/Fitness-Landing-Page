@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to ThunderVPN</h1>
+      <h1>Welcome to Workout</h1>
     </div>
   );
 };
