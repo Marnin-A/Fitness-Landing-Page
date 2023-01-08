@@ -1,4 +1,4 @@
-import Home from "./pages/home";
+import { Home, Exercises, Program, Videos } from "./pages";
 import Navbar from "./components/navbar";
 import React from "react";
 import "./App.css";
