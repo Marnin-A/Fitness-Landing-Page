@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import styles from "./card.module.css";
-import Background1 from "../../assets/image4.png";
-import Background2 from "../../assets/image7.png";
-import Background3 from "../../assets/image2.png";
-import Background4 from "../../assets/image12.png";
-import Background5 from "../../assets/image6.png";
-import Background6 from "../../assets/image3.png";
+import Background1 from "../../assets/image4.webp";
+import Background2 from "../../assets/image7.webp";
+import Background3 from "../../assets/image2.webp";
+import Background4 from "../../assets/image12.webp";
+import Background5 from "../../assets/image6.webp";
+import Background6 from "../../assets/image3.webp";
 
 export const Card = (props) => {
   const [key, setKey] = useState("");
