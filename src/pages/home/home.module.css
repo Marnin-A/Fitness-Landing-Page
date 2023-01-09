@@ -3,7 +3,7 @@
   margin-left: 50px;
   background-image: url(../../assets/image1.png);
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: 120%;
   background-position-y: 40%;
 }
 #note {

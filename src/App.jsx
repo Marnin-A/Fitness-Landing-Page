@@ -1,5 +1,5 @@
 import { Home, Exercises, Program, Videos } from "./pages";
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar/navbar";
 import React from "react";
 import "./App.css";
 
@@ -8,9 +8,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <Exercises />
+      <Program />
+      <Videos />
       {/* 🟡Features🟡
-      1. Make responsive
-      2. Add themes
+      1. Add themes
       */}
     </div>
   );

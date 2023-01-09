@@ -1,0 +1,54 @@
+.card {
+  width: 373px;
+  height: 250px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #000000 100%);
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.title {
+  width: 373px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title__text {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  width: 72px;
+  height: 29px;
+  background: #000000;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 1.36667px;
+}
+.calories {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  opacity: 0.67;
+  margin-left: 13px;
+}
