@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./card.module.css";
+import Background1 from "../../assets/image4.png";
+import Background2 from "../../assets/image7.png";
+import Background3 from "../../assets/image2.png";
+import Background4 from "../../assets/image12.png";
+import Background5 from "../../assets/image6.png";
+import Background6 from "../../assets/image3.png";
 
 export const Card = (props) => {
-  // Pass the background image as props and create an
-  // object to pass it to the card div
-  let background = props.img;
+  const [key, setKey] = useState("");
+  useEffect(() => {
+    setKey(props.name);
+  }, []);
 
+  let background;
+  switch (key) {
+    case "Treadmill":
+      background = Background1;
+      break;
+    case "Stretching":
+      background = Background2;
+      break;
+    case "Yoga":
+      background = Background3;
+      break;
+    case "Running":
+      background = Background4;
+      break;
+    case "Lifting":
+      background = Background5;
+      break;
+    case "Pushing":
+      background = Background6;
+      break;
+    default:
+      background = Background1;
+      break;
+  }
   return (
     <div
       className={styles.card}
