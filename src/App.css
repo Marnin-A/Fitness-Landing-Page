@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #000000;
   color: #ffffff;
+  width: 100%;
 }
