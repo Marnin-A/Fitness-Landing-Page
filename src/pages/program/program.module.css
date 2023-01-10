@@ -1,10 +1,10 @@
 .program {
+  height: min-content;
   display: flex;
   flex-direction: column;
   margin-left: 30px;
   margin-right: 20px;
   margin-top: 50px;
-  margin-bottom: 70px;
 }
 .program__top {
   max-width: 100%;
@@ -69,35 +69,4 @@
   border-style: none;
   align-self: flex-start;
   margin-top: 7%;
-}
-.program__bottom {
-  display: flex;
-  flex-direction: row;
-  margin-left: 25px;
-  height: 730px;
-}
-.trainer2 {
-  align-self: flex-end;
-}
-.trainer3 {
-  position: relative;
-  top: -26.5%;
-}
-.trainer__name {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 125%;
-  letter-spacing: 0.5px;
-  margin-left: 20px;
-}
-.trainer__title {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing: 0.5px;
-  margin-left: 20px;
-  margin-top: -10px;
-  color: #393939;
 }
